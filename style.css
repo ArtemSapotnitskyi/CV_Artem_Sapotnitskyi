@@ -127,9 +127,9 @@ body {
 }
 
 .hero-photo {
-  width: 170px;
-  height: 190px;
-  border-radius: 14px 14px 28px 28px;
+  width: 160px;
+  height: 210px;
+  border-radius: 14px;
   overflow: hidden;
 }
 
@@ -183,6 +183,16 @@ section p {
 .experience-role {
   margin: 0;
   font-weight: 500;
+}
+
+.experience-description {
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-size: 14px;
+}
+
+.experience-role + .experience-description {
+  margin-top: 12px;
 }
 
 .experience-date,
